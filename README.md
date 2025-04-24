@@ -21,7 +21,7 @@ Adicionando o campo ao modelo para usar o DocumentField, basta importá-lo e adi
 
 ```python
 from django.db import models
-from document.field import DocumentField
+from <meu_app>.document import DocumentField
 
 class Pessoa(models.Model):
     nome = models.CharField(max_length=100)
@@ -55,7 +55,7 @@ Para garantir que o campo funcione corretamente, você pode criar testes unitár
 
 ```python
 from django.core.exceptions import ValidationError
-from document.validators import validate_document
+from <meu_app>.document.validators import validate_document
 
 # CPF válido
 validate_document("123.456.789-09")
