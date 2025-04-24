@@ -11,14 +11,9 @@
 
 ## Instalação
 
-Clone o repositório para o seu projeto:
+Clone o repositório para o app `core` do seu projeto:
 ```bash
 git clone https://github.com/seu-usuario/django-document-field.git
-```
-Adicione o diretório ao seu projeto Django ou instale como um pacote Python Certifique-se de que o Django está instalado no seu ambiente:
-
-```bash
-pip install django
 ```
 
 ## Uso
