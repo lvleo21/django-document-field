@@ -11,17 +11,15 @@
 
 ## Instalação
 
-1. Clone o repositório para o seu projeto:
-    ```bash
-    git clone https://github.com/seu-usuario/django-document-field.git
-    ```
-2. Adicione o diretório ao seu projeto Django ou instale como um pacote Python.
+Clone o repositório para o seu projeto:
+```bash
+git clone https://github.com/seu-usuario/django-document-field.git
+```
+Adicione o diretório ao seu projeto Django ou instale como um pacote Python Certifique-se de que o Django está instalado no seu ambiente:
 
-3. Certifique-se de que o Django está instalado no seu ambiente:
-
-    ```bash
-    pip install django
-    ```
+```bash
+pip install django
+```
 
 ## Uso
 Adicionando o campo ao modelo para usar o DocumentField, basta importá-lo e adicioná-lo ao seu modelo:
